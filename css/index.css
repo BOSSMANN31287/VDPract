@@ -1,0 +1,485 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+.navBar{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    /* padding-top: 1%;
+    padding-left: 1%; */
+    position: fixed;
+    /* gap: 30%; */
+    /* margin-bottom: 10vh; */
+}
+/* .hamburgerMenu{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: -2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.5s ease;
+}
+.hamburgerMenu a{
+    text-decoration: none;
+    color: white;
+} */
+.navLinksBtn1{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(244, 140, 140);
+    border: none;
+    color: white;
+    /* font-size: 15px; */
+    cursor: pointer;
+}
+
+
+.homeLogo{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    align-items: center; 
+    /* text-align: center; */
+}
+.homeLogoH3{
+    color: rgb(244, 140, 140);
+    /* font-size: 20px; */
+    margin-left: 45%;
+    margin-top: 5%;
+    font-weight: 700;
+}
+.navLinks{
+    display: flex;
+    gap: 7%;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    margin-left: 30%;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navLinks a:hover{
+    color: rgb(244, 140, 140);
+    transition: 0.5s;
+}
+/* .navLinksBtnCover{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(244, 140, 140);
+    border: none;
+    cursor: pointer;
+} */
+.navLinksBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(244, 140, 140);
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navLinksBtn:hover{
+    background-color: rgb(87, 87, 245);
+    transition: 0.5s;
+}
+
+
+.mainBody{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    /* margin-top: 10vh; */
+}
+.bodyLeft{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    /* align-items: center;
+    text-align: center; */
+}
+.bodyRight{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+
+
+.bodyLeftLineOne{
+    color: rgb(244, 140, 140);
+    margin-top: 35%;
+    margin-left: 18%;
+    font-size: 40px;
+}
+.bodyLeftLineTwo{
+    color: rgb(252, 93, 93);
+    margin-top: 1%;
+    margin-left: 18%;
+    font-size: 40px;
+}
+.bodyLeftLineThree{
+    color: rgb(87, 87, 245);
+    margin-top: 1%;
+    margin-left: 18%;
+    font-size: 40px;
+}
+.bodyLeftP{
+    color: white;
+    margin-top: 1%;
+    margin-left: 18%;
+}
+.bodyLeftBtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(244, 140, 140);
+    margin-top: 2%;
+    margin-left: 18%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.bodyLeftBtn:hover{
+    background-color: rgb(87, 87, 245);
+    transition: 0.5s;
+}
+.vdLogo{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.servicesSxn{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.servicesSxnH3{
+    color: rgb(244, 140, 140);
+    margin-bottom: 30px;
+}
+.upper{
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+}
+.lower{
+    width: 100%;
+    display: flex;
+    /* background-color: pink; */
+}
+.container6, .container5, .container4, .container3, .container2, .container1{
+    width: 20%;
+    height: 250px;
+    border-radius: 5px;
+    /* background-color: red; */
+    margin-left: 10%;
+
+}
+/* .container1{
+    background-image: url(/media/vdMobileApp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* .container2{
+    background-image: url(/media/webDev2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container3{
+    background-image: url(/media/vdVLE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container4{
+    background-image: url(/media/ecomm2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container5{
+    background-image: url(/media/techtrain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container6{
+    background-image: url(/media/techContracts3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.container1 img, .container2 img, .container3 img, .container4 img, .container5 img, .container6 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.contactUsSxn{
+    width: 100%;
+    height: 500px;
+    /* background-image: url(/media/contactUsBack.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+    /* text-align: center; */
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+.contactUsSxnComponents{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.contactUsSxnH3{
+    color: white;
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.contactUsSxnLeft{
+    width: 50%;
+    /* height: 300px; */
+    color: white;
+    /* background-color: aliceblue; */
+}
+.contactUsSxnLeftContentss{
+    margin-left: 20%;
+    display: flex;
+    width: 80%;
+
+    /* background-color: red; */
+    margin-top: 20px;
+    padding-top: 10px;
+    gap: 5%;
+    border-bottom: 2.5px solid white;
+}
+.icon{
+    color: white;
+    font-size: 50px;
+}
+.textsH4{
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+.contactUsSxnRight{
+    width: 50%;
+    /* height: 300px; */
+    /* background-color: red; */
+    /* padding-top: 30px; */
+}
+.contactUsSxnRightInner{
+    margin-left: 10%;
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    /* margin-top: 5%; */
+}
+.inp{
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    border: none;
+    border-bottom: 2.5px solid black;
+    background: transparent;
+}
+.inp::placeholder{
+    font-weight: 900;
+    color: black;
+}
+.formBtn{
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(244, 140, 140);
+    font-size: 20px;
+    font-weight: 500;
+}
+.innerH3{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+.ftr{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(0, 0, 16);
+}
+.ftr ol{
+    list-style: none;
+}
+.ftr a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.footerUpper{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    /* border-bottom: 1.5px solid white; */
+    display: flex;
+}
+.span{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin-left: 3.5%;
+    border: 1px solid white;
+}
+.footerUpperContents{
+    width: 15%;
+    margin-left: 3.5%;
+    height: 90%;
+    /* background-color: black; */
+}
+/* .ftrLogo{
+    width: 100%;
+    height: 100%;
+} */
+.ftrLower{
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    padding-top: 30px;
+    /* border-bottom: 1.5px solid white; */
+    /* display: flex; */
+}
+.iconsDiv{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.copyRightDiv{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+}
+.ftrH33{
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 3000px) {
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bodyLeftLineOne{
+        margin-top: 60%;
+    }
+    .navLinks{
+        display: none;
+    }
+    .menu{
+        display: block;
+        font-size: 30px;
+        color: white;
+        right: 0;
+        position: fixed;
+    }
+}
+@media screen and (max-width: 705px) {
+    .bodyRight{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .upper{
+        flex-direction: column;
+    }
+    .container6, .container5, .container4, .container3, .container2, .container1{
+        width: 50%;
+        height: 250px;
+        margin-bottom: 50px;
+        margin-left: 25%;
+    }
+    .lower{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container6, .container5, .container4, .container3, .container2, .container1{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contactUsSxnComponents{
+        flex-direction: column;
+    }
+    .contactUsSxnLeft{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .contactUsSxnLeftContentss{
+        margin-left: 10%;
+    }
+    .contactUsSxnRight{
+        width: 90%;
+        /* background-color: red; */
+    }
+    .contactUsSxnRightInner{
+        margin-left: 10%;
+        height: 105%;
+    }
+    .ftr{
+        margin-top: 350px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .footerUpperContentsA{
+        display: none;
+    }
+}
+@media screen and (max-width: 335px) {
+    .bodyLeftLineOne, .bodyLeftLineTwo, .bodyLeftLineThree, .bodyLeftP, .bodyLeftBtn{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 500px) {
+    
+}
